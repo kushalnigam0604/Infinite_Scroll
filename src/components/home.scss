@@ -1,0 +1,45 @@
+.header{
+    height: 60px;
+}
+.outerContainer{
+    height: calc(100% - 130px);
+}
+.container{
+    width: 10%;
+  padding: 2px;
+  margin: auto;
+  div {
+    text-align: center;
+    button {
+      width: 100%;
+      a {
+        color: rgb(251, 249, 249);
+        text-decoration: none;
+      }
+    }
+  }
+}
+.loadingPara{
+  color: wheat;
+}
+.footer{
+    height: 50px;
+}
+
+  .bounce {
+    -moz-animation: bounce 2s 1;
+    -webkit-animation: bounce 2s 1;
+    animation: bounce 2s 1;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-40px);
+    }
+    60% {
+      transform: translateY(-18px);
+    }
+  }

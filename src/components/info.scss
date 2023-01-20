@@ -1,0 +1,33 @@
+body{ 
+    background: rgb(128, 125, 125);
+    background-image: url("https://t4.ftcdn.net/jpg/02/02/14/83/360_F_202148311_XXPcpHC6X2PLeS71MPIPuGudfI63jas6.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size:     cover;                
+    background-repeat:   no-repeat;
+    background-position: center center; 
+
+}
+.card{
+    text-align: center;
+    border: 1px solid rgb(246, 173, 173);
+    box-shadow: 10px 10px 5px rgb(231, 185, 145);
+    border-radius: 20px;
+    width: 17%;
+    margin: auto;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom , rgb(248, 71, 71), rgb(252, 183, 55),rgb(245, 214, 155));
+
+}
+.card-title{
+    text-shadow: 2px 2px 4px #680202;
+
+}
+.cardImg{
+    width: 100%;
+    img{
+        width: 150px;
+         height: 150px;
+          overflow: hidden; border-radius: 50%;
+    }
+}
